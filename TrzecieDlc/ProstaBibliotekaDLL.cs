@@ -8,10 +8,10 @@ using static IAplikacji.InterfejsApli;
 
 namespace TrzecieDlc
 {
-    //miniatutowe dll jako dodatek uzupełniający do projektu zabawaNapisy. 
+    //miniaturowe dll jako dodatek uzupełniający do projektu zabawaNapisy. 
     // kod projektu znajduje sie na stronie https://github.com/dkopos/OpostDane
-    // a za zadanie pokazać jak tworzyć proste dll, z urzyciem mes. Mając jedynie informacjie o urzywanym interfejsie.
-    //Oraz posiadając DLL z jedo implementacją
+    // a za zadanie pokazać jak tworzyć proste dll, z użyciem mes. Mając jedynie informacje o używanym interfejsie.
+    //Oraz posiadając DLL z jego implementacją
     [Export(typeof(IOpreracji))]
     [ExportMetadata("Symbol", "A")]
     class innaSuma : IOpreracji
